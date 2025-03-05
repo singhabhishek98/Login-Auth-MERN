@@ -6,7 +6,7 @@
 
 Responsive user Registration and Login (SignIn & SignUp) Form functionality using React, NodeJS, ExpressJS and MongoDB and Bootstrap.
 
-Output:![image](https://github.com/user-attachments/assets/224a7d7e-2a3a-46f0-ac41-567d840a1542)
+Output:![image](https://github.com/singhabhishek98/Login-Auth-MERN/blob/main/UI.png)
 
 
 
