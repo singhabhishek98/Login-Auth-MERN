@@ -1,0 +1,163 @@
+*,
+::before,
+::after{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+label{
+  font-size: 20px;
+}
+
+html,
+body{
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(239, 243, 194);
+}
+
+.container{
+  background-color: #f8d9d1;
+  padding: 32px 48px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 8px 8px 24px 0px rgb(121, 170, 244);
+}
+
+.container > h1{
+  margin-bottom: 20px;
+}
+
+.container > form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.container div{
+  display: flex;
+  flex-direction: column;
+}
+
+.container input{
+  width: 100%;
+  font-size: 20px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+}
+
+.container input::placeholder{
+  font-size: 12px;
+  font-style: italic;
+}
+
+button{
+  background-color: rgb(16, 4, 15);
+  border: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+.container h1 {
+  text-align: center;
+}
+
+.logout-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0; /* Optional: Add some margin for spacing */
+}
+
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  position: relative; /* Ensure body is set for proper layout */
+}
+
+/* Footer Styles */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f1f1f1;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 10; /* Make sure footer is always on top */
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.social-links {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Social Media Icon Styling */
+.social-links a {
+  margin: 0 10px;
+  font-size: 24px;
+  color: #000;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  color: #007bff;
+}
+
+footer p {
+  margin: 0;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .social-links a {
+    font-size: 20px;
+    margin: 0 8px;
+  }
+
+  footer p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .social-links a {
+    font-size: 18px;
+    margin: 0 5px;
+  }
+
+  footer p {
+    font-size: 12px;
+  }
+}
+
+/* Page Layout for Login and Signup Pages */
+.content {
+  padding-bottom: 80px; /* Space for footer */
+  flex-grow: 1; /* Ensure content area takes available space */
+}
